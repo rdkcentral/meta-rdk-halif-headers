@@ -12,14 +12,10 @@ SUMMARY = "Closedcaption HAL definition"
 SECTION = "console/utils"
 LICENSE = "CableLabs & RDK"
 LIC_FILES_CHKSUM = "file://ccManager/ccregisterforlog.h;endline=11;md5=06b9cc74cd786e4b5b10118eb9a5a57d"
-PV = "${RDK_RELEASE}+git${SRCPV}"
 
-PV ?= "1.0.0"
-PR ?= "r0"
 ALLOW_EMPTY_${PN} = "1"
 
-SRCREV = "9f70b3cde96ee504479120cc4192b6da28f7725f"
-SRC_URI = "${RDK_GENERIC_ROOT_GIT}/closedcaption/generic;protocol=${RDK_GIT_PROTOCOL};branch=${RDK_GIT_BRANCH}"
+SRC_URI = "${RDKE_GITHUB_ROOT}/closedcaption;${RDKE_GITHUB_SRC_URI_SUFFIX}"
 S = "${WORKDIR}/git"
 inherit allarch
 
