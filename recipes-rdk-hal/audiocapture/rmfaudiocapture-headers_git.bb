@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=b1e01b26bacfc2232046c90a330332b3"
 PN = "rmfaudiocapture-headers"
 
 inherit allarch
-SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-rmf_audio_capture;protocol=${CMF_GITHUB_PROTOCOL};nobranch=1"
+SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-rmf_audio_capture;${CMF_GITHUB_SRC_URI_SUFFIX}"
 
 S = "${WORKDIR}/git"
 
