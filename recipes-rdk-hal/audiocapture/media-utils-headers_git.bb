@@ -4,7 +4,7 @@ SECTION = "console/utils"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b1e01b26bacfc2232046c90a330332b3"
 
-PN = "rmfaudiocapture-headers"
+PN = "media-utils-headers"
 
 inherit allarch
 SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-rmf_audio_capture;${CMF_GITHUB_SRC_URI_SUFFIX}"
