@@ -11,7 +11,7 @@ PV_pn-media-utils-headers = "1.0.4"
 PR_pn-media-utils-headers = "r0"
 SRCREV_pn-media-utils-headers = "1.0.4"
 
-PV_pn-hdmicecheader = "1.3.0"
+PV_pn-hdmicecheader = "1.3.7"
 PR_pn-hdmicecheader = "r0"
-SRCREV_pn-hdmicecheader = "1.3.0"
+SRCREV_pn-hdmicecheader = "1.3.7"
 
