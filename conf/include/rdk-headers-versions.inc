@@ -15,3 +15,7 @@ PV_pn-hdmicecheader = "1.3.7"
 PR_pn-hdmicecheader = "r0"
 SRCREV_pn-hdmicecheader = "1.3.7"
 
+PV_pn-iarmbus-headers = "1.0.0"
+PR_pn-iarmbus-headers = "r0"
+SRCREV_pn-iarmbus-headers = "GRT_v2"
+
