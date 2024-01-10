@@ -25,6 +25,10 @@ PV_pn-power-manager-headers = "0.1.0"
 PR_pn-power-manager-headers = "r0"
 SRCREV_pn-power-manager-headers = "0.1.0"
 
+PV_pn-devicesettings-hal-headers = "0.1.0"
+PR_pn-devicesettings-hal-headers = "r0"
+SRCREV_pn-devicesettings-hal-headers = "0.1.0"
+
 PV_pn-iarmmgrs-hal-headers = "2.0.0"
 PR_pn-iarmmgrs-hal-headers = "r0"
 SRCREV_pn-iarmmgrs-hal-headers = "8c0e309be318e0665b8fb2ccdf131b722cc32d84"
