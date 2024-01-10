@@ -3,6 +3,8 @@
 # should be removed once the new implementation based on RDKCentral headers
 # is available in RDKE Vendor and Middleware layers
 
+# Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
+
 SUMMARY = "iarmbus headers"
 SECTION = "console/utils"
 LICENSE = "Apache-2.0"
