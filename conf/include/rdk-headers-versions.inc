@@ -5,10 +5,6 @@ CMF_GITHUB_ROOT ?= "git://github.com/rdkcentral"
 CMF_GITHUB_PROTOCOL ?= "git"
 CMF_GITHUB_SRC_URI_SUFFIX ?= "protocol=${CMF_GITHUB_PROTOCOL};nobranch=1"
 
-PV_pn-closedcaption-hal-headers = "1.0.0"
-PR_pn-closedcaption-hal-headers = "r0"
-SRCREV_pn-closedcaption-hal-headers = "GRT_v2"
-
 PV_pn-media-utils-headers = "1.0.4"
 PR_pn-media-utils-headers = "r0"
 SRCREV_pn-media-utils-headers = "1.0.4"
@@ -33,7 +29,14 @@ PV_pn-iarmmgrs-hal-headers = "2.0.0"
 PR_pn-iarmmgrs-hal-headers = "r0"
 SRCREV_pn-iarmmgrs-hal-headers = "8c0e309be318e0665b8fb2ccdf131b722cc32d84"
 
+PV_pn-tvsettings-hal-headers = "0.1.1"
+PR_pn-tvsettings-hal-headers = "r0"
+SRCREV_pn-tvsettings-hal-headers = "0.1.1"
+
+PV_pn-closedcaption-hal-headers = "1.0.0"
+PR_pn-closedcaption-hal-headers = "r0"
+SRCREV_pn-closedcaption-hal-headers = "GRT_v2"
+
 PV_pn-iarmbus-headers = "1.0.0"
 PR_pn-iarmbus-headers = "r0"
 SRCREV_pn-iarmbus-headers = "GRT_v2"
-
