@@ -8,6 +8,8 @@
 # Copyright (c) 2016 RDK Management, LLC. All rights reserved.
 # ============================================================================
 
+# Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
+
 SUMMARY = "Closedcaption HAL definition"
 SECTION = "console/utils"
 LICENSE = "CableLabs & RDK"

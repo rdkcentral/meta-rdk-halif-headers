@@ -1,9 +1,19 @@
+# ============================================================================
+# RDK MANAGEMENT, LLC CONFIDENTIAL AND PROPRIETARY
+# ============================================================================
+# This file (and its contents) are the intellectual property of RDK Management, LLC.
+# It may not be used, copied, distributed or otherwise  disclosed in whole or in
+# part without the express written permission of RDK Management, LLC.
+# ============================================================================
+# Copyright (c) 2016 RDK Management, LLC. All rights reserved.
+# ============================================================================
+
+# Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
+
 # Please note that this header file recipe is added as temporary
 # fix to provide iarmbus headers needed for power and deepsleep manager
 # should be removed once the new implementation based on RDKCentral headers
 # is available in RDKE Vendor and Middleware layers
-
-# Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
 
 SUMMARY = "iarmbus headers"
 SECTION = "console/utils"
