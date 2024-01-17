@@ -10,7 +10,7 @@
 
 # Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
 
-# Please note that this header file recipe is added as temporary
+# TODO Please note that this header file recipe is added as temporary
 # fix to provide iarmbus headers needed for power and deepsleep manager
 # should be removed once the new implementation based on RDKCentral headers
 # is available in RDKE Vendor and Middleware layers

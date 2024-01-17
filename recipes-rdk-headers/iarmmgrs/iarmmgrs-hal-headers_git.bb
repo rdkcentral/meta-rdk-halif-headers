@@ -11,7 +11,7 @@
 # Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
 
 # deepSleepMgr.h & plat_power.h are now taken from the rdkcentral git hub
-# further review should be done on this recipe to remove any unused header
+# TODO further review should be done on this recipe to remove any unused header
 # files and design changes for used headers like mfr headers
 
 SUMMARY = "IARMmgrs HAL definition"

@@ -9,6 +9,7 @@
 # ============================================================================
 
 # Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
+# TODO Move to rdkcentral github version once it is available
 
 SUMMARY = "Closedcaption HAL definition"
 SECTION = "console/utils"
