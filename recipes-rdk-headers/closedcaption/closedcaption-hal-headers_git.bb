@@ -9,23 +9,17 @@
 # ============================================================================
 
 # Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
+# TODO Move to rdkcentral github version once it is available
 
-# TODO Please note that this header file recipe is added as temporary
-# fix to provide iarmbus headers needed for power and deepsleep manager
-# should be removed once the new implementation based on RDKCentral headers
-# is available in RDKE Vendor and Middleware layers
-
-SUMMARY = "iarmbus headers"
+SUMMARY = "Closedcaption HAL definition"
 SECTION = "console/utils"
-LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
+LICENSE = "CableLabs & RDK"
+LIC_FILES_CHKSUM = "file://ccManager/ccregisterforlog.h;endline=11;md5=06b9cc74cd786e4b5b10118eb9a5a57d"
 
 ALLOW_EMPTY_${PN} = "1"
 
-SRC_URI = "${RDKE_GITHUB_ROOT}/iarmbus;${RDKE_GITHUB_SRC_URI_SUFFIX};name=iarmbus"
-
+SRC_URI = "${RDKE_GITHUB_ROOT}/closedcaption;${RDKE_GITHUB_SRC_URI_SUFFIX}"
 S = "${WORKDIR}/git"
-
 inherit allarch
 
 # this is a HAL package only, nothing to build
@@ -37,6 +31,11 @@ do_configure[noexec] = "1"
 RDEPENDS_${PN}-dev = ""
 
 do_install() {
-        install -d ${D}${includedir}/rdk/iarmbus
-        install -m 0644 ${S}/core/include/*.h ${D}${includedir}/rdk/iarmbus
+        install -d ${D}${includedir}/closedcaption/ccManager
+        install -d ${D}${includedir}/closedcaption/ccGraphics
+        install ${S}/ccManager/utils/*.h ${D}${includedir}/closedcaption/ccManager
+        install ${S}/ccManager/*.h ${D}${includedir}/closedcaption/ccManager
+        install ${S}/ccGraphics/*.h ${D}${includedir}/closedcaption/ccGraphics
+        install ${S}/ccGraphics/include/*.h ${D}${includedir}/closedcaption/ccGraphics
+        install ${S}/include/*.h ${D}${includedir}/closedcaption
 }

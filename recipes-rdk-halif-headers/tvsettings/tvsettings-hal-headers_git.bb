@@ -8,16 +8,18 @@
 # Copyright (c) 2016 RDK Management, LLC. All rights reserved.
 # ============================================================================
 
-SUMMARY = "Closedcaption HAL definition"
+# Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
+
+SUMMARY = "TVsettings HAL headers"
 SECTION = "console/utils"
-LICENSE = "CableLabs & RDK"
-LIC_FILES_CHKSUM = "file://ccManager/ccregisterforlog.h;endline=11;md5=06b9cc74cd786e4b5b10118eb9a5a57d"
 
-ALLOW_EMPTY_${PN} = "1"
+LICENSE = "Apache-2.0"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
-SRC_URI = "${RDKE_GITHUB_ROOT}/closedcaption;${RDKE_GITHUB_SRC_URI_SUFFIX}"
-S = "${WORKDIR}/git"
 inherit allarch
+SRC_URI = "${CMF_GITHUB_ROOT}/rdkv-halif-tvsettings;${CMF_GITHUB_SRC_URI_SUFFIX}"
+
+S = "${WORKDIR}/git"
 
 # this is a HAL package only, nothing to build
 do_compile[noexec] = "1"
@@ -26,13 +28,11 @@ do_configure[noexec] = "1"
 # also get rid of the default dependency added in bitbake.conf
 # since there is no 'main' package generated (empty)
 RDEPENDS_${PN}-dev = ""
+# to include the headers in the SDK
+ALLOW_EMPTY_${PN} = "1"
 
 do_install() {
-        install -d ${D}${includedir}/closedcaption/ccManager
-        install -d ${D}${includedir}/closedcaption/ccGraphics
-        install ${S}/ccManager/utils/*.h ${D}${includedir}/closedcaption/ccManager
-        install ${S}/ccManager/*.h ${D}${includedir}/closedcaption/ccManager
-        install ${S}/ccGraphics/*.h ${D}${includedir}/closedcaption/ccGraphics
-        install ${S}/ccGraphics/include/*.h ${D}${includedir}/closedcaption/ccGraphics
-        install ${S}/include/*.h ${D}${includedir}/closedcaption
+    install -d ${D}${includedir}/rdk/tv-hal
+    install -m 0644 ${S}/include/*.h ${D}${includedir}/rdk/tv-hal
 }
+
