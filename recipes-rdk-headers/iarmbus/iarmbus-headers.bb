@@ -39,4 +39,5 @@ RDEPENDS_${PN}-dev = ""
 do_install() {
         install -d ${D}${includedir}/rdk/iarmbus
         install -m 0644 ${S}/core/include/*.h ${D}${includedir}/rdk/iarmbus
+	install -m 0644 ${S}/core/*.h ${D}${includedir}/rdk/iarmbus
 }
