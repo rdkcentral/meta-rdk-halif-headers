@@ -13,13 +13,13 @@ PV_pn-hdmicecheader = "1.3.7"
 PR_pn-hdmicecheader = "r0"
 SRCREV_pn-hdmicecheader = "1.3.7"
 
-PV_pn-deepsleep-manager-headers = "0.1.0"
+PV_pn-deepsleep-manager-headers = "1.0.3"
 PR_pn-deepsleep-manager-headers = "r0"
-SRCREV_pn-deepsleep-manager-headers = "0.1.0"
+SRCREV_pn-deepsleep-manager-headers = "1.0.3"
 
-PV_pn-power-manager-headers = "0.1.0"
+PV_pn-power-manager-headers = "1.0.2"
 PR_pn-power-manager-headers = "r0"
-SRCREV_pn-power-manager-headers = "0.1.0"
+SRCREV_pn-power-manager-headers = "1.0.2"
 
 PV_pn-devicesettings-hal-headers = "1.0.8"
 PR_pn-devicesettings-hal-headers = "r0"
