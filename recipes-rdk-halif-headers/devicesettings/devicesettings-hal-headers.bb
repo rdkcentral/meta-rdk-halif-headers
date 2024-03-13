@@ -33,8 +33,8 @@ RDEPENDS_${PN}-dev = ""
 ALLOW_EMPTY_${PN} = "1"
 
 do_install() {
-    install -d ${D}${includedir}/rdk/ds-hal
-    install -m 0644 ${S}/include/*.h ${D}${includedir}/rdk/ds-hal
+    install -d ${D}${includedir}/rdk/halif/ds-hal
+    install -m 0644 ${S}/include/*.h ${D}${includedir}/rdk/halif/ds-hal
 }
 
 do_install[vardepsexclude] += "S"
