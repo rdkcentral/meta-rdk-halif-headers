@@ -32,6 +32,7 @@ do_compile[noexec] = "1"
 
 # also get rid of the default dependency added in bitbake.conf
 # since there is no 'main' package generated (empty)
+DEPENDS="deepsleep-manager-headers power-manager-headers"
 RDEPENDS_${PN}-dev = ""
 
 do_install() {
@@ -39,6 +40,7 @@ do_install() {
     install -m 0644 ${S}/hal/include/comcastIrKeyCodes.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/hal/include/plat_ir.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/hal/include/pwrMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
+    install -m 0644 ${S}/hal/include/therm_mon.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/ir/irMgrInternal.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/ir/IrInputRemoteKeyCodes.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/power/pwrlogger.h ${D}${includedir}/rdk/iarmmgrs-hal
