@@ -32,6 +32,7 @@ do_compile[noexec] = "1"
 
 # also get rid of the default dependency added in bitbake.conf
 # since there is no 'main' package generated (empty)
+DEPENDS="deepsleep-manager-headers power-manager-headers"
 RDEPENDS_${PN}-dev = ""
 
 do_install() {
