@@ -29,9 +29,9 @@ PV_pn-tvsettings-hal-headers = "0.1.1"
 PR_pn-tvsettings-hal-headers = "r0"
 SRCREV_pn-tvsettings-hal-headers = "0.1.1"
 
-PV_pn-iarmmgrs-hal-headers = "2.0.0"
+PV_pn-iarmmgrs-hal-headers = "2.0.1"
 PR_pn-iarmmgrs-hal-headers = "r0"
-SRCREV_pn-iarmmgrs-hal-headers = "011bf757f208435c583fa9822008e76f041a31be"
+SRCREV_pn-iarmmgrs-hal-headers = "2.0.1"
 
 PV_pn-closedcaption-hal-headers = "1.0.0"
 PR_pn-closedcaption-hal-headers = "r0"
