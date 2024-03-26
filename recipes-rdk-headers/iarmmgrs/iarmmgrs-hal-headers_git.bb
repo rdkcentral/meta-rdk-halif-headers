@@ -40,7 +40,6 @@ do_install() {
     install -m 0644 ${S}/hal/include/comcastIrKeyCodes.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/hal/include/plat_ir.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/hal/include/pwrMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
-    install -m 0644 ${S}/hal/include/therm_mon.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/ir/irMgrInternal.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/ir/IrInputRemoteKeyCodes.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/power/pwrlogger.h ${D}${includedir}/rdk/iarmmgrs-hal
