@@ -40,7 +40,3 @@ SRCREV_pn-closedcaption-hal-headers = "GRT_v2"
 PV_pn-iarmbus-headers = "1.0.0"
 PR_pn-iarmbus-headers = "r0"
 SRCREV_pn-iarmbus-headers = "GRT_v2"
-
-PV_pn-rdk-gstreamer-utils-headers = "1.0.0"
-PR_pn-rdk-gstreamer-utils-headers = "r0"
-SRCREV_pn-rdk-gstreamer-utils-headers = "64075a19be92637543d6de0bd1abcf4ac2e51298"
