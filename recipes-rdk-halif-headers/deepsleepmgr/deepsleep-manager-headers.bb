@@ -28,6 +28,6 @@ do_configure[noexec] = "1"
 
 
 do_install() {
-        install -d ${D}${includedir}/rdk/iarmmgrs-hal
-        install -m 0644 ${S}/include/*.h ${D}${includedir}/rdk/iarmmgrs-hal
+        install -d ${D}${includedir}/rdk/halif/deepsleep-manager
+        install -m 0644 ${S}/include/*.h ${D}${includedir}/rdk/halif/deepsleep-manager
 }
