@@ -21,13 +21,13 @@ PV_pn-power-manager-headers = "1.0.2"
 PR_pn-power-manager-headers = "r0"
 SRCREV_pn-power-manager-headers = "1.0.2"
 
-PV_pn-devicesettings-hal-headers = "1.0.8"
+PV_pn-devicesettings-hal-headers = "2.0.0"
 PR_pn-devicesettings-hal-headers = "r0"
-SRCREV_pn-devicesettings-hal-headers = "1.0.8"
+SRCREV_pn-devicesettings-hal-headers = "2.0.0"
 
-PV_pn-tvsettings-hal-headers = "0.1.1"
+PV_pn-tvsettings-hal-headers = "1.2.0"
 PR_pn-tvsettings-hal-headers = "r0"
-SRCREV_pn-tvsettings-hal-headers = "0.1.1"
+SRCREV_pn-tvsettings-hal-headers = "1.2.0"
 
 PV_pn-iarmmgrs-hal-headers = "2.0.1"
 PR_pn-iarmmgrs-hal-headers = "r0"
