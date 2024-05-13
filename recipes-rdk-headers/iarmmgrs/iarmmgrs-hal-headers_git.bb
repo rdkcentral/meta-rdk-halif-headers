@@ -46,6 +46,7 @@ do_install() {
     install -m 0644 ${S}/power/pwrlogger.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfrMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfrTypes.h ${D}${includedir}/rdk/iarmmgrs-hal
+    install -m 0644 ${S}/mfr/common/include/mfrApi.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfr_wifi_types.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfr_wifi_api.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfr_temperature.h ${D}${includedir}/rdk/iarmmgrs-hal
