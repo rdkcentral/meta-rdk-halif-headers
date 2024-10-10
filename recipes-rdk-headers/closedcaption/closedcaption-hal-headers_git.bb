@@ -16,7 +16,7 @@ SECTION = "console/utils"
 LICENSE = "CableLabs & RDK"
 LIC_FILES_CHKSUM = "file://ccManager/ccregisterforlog.h;endline=11;md5=06b9cc74cd786e4b5b10118eb9a5a57d"
 
-ALLOW_EMPTY_${PN} = "1"
+ALLOW_EMPTY:${PN} = "1"
 
 SRC_URI = "${RDKE_GITHUB_ROOT}/closedcaption;${RDKE_GITHUB_SRC_URI_SUFFIX}"
 S = "${WORKDIR}/git"
@@ -28,7 +28,7 @@ do_configure[noexec] = "1"
 
 # also get rid of the default dependency added in bitbake.conf
 # since there is no 'main' package generated (empty)
-RDEPENDS_${PN}-dev = ""
+RDEPENDS:${PN}-dev = ""
 
 do_install() {
         install -d ${D}${includedir}/closedcaption/ccManager

@@ -27,9 +27,9 @@ do_configure[noexec] = "1"
 
 # also get rid of the default dependency added in bitbake.conf
 # since there is no 'main' package generated (empty)
-RDEPENDS_${PN}-dev = ""
+RDEPENDS:${PN}-dev = ""
 # to include the headers in the SDK
-ALLOW_EMPTY_${PN} = "1"
+ALLOW_EMPTY:${PN} = "1"
 
 do_install() {
     install -d ${D}${includedir}/rdk/tv-hal
