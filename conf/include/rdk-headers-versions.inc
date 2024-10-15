@@ -1,5 +1,5 @@
 # This inc file contains the versions and SRCREV for individual
-# RDK hal header recipes present in rdk-e/meta-rdk-halif-headers
+# RDK hal header recipes present in rdkcentral/meta-rdk-halif-headers
 
 CMF_GITHUB_ROOT ?= "git://github.com/rdkcentral"
 CMF_GITHUB_PROTOCOL ?= "git"
@@ -32,10 +32,6 @@ SRCREV:pn-tvsettings-hal-headers = "1fba39f12063513757b65a6a023f93e1e711d5ad"
 PV:pn-iarmmgrs-hal-headers = "2.1.5"
 PR:pn-iarmmgrs-hal-headers = "r0"
 SRCREV:pn-iarmmgrs-hal-headers = "4894410122b854cb97bd0ebc41cf9f90af333840"
-
-PV:pn-closedcaption-hal-headers = "1.0.0"
-PR:pn-closedcaption-hal-headers = "r0"
-SRCREV:pn-closedcaption-hal-headers = "9f70b3cde96ee504479120cc4192b6da28f7725f"
 
 PV:pn-iarmbus-headers = "1.0.0"
 PR:pn-iarmbus-headers = "r0"
