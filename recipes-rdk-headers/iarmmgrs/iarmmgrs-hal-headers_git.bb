@@ -8,7 +8,7 @@ SUMMARY = "IARMmgrs HAL definition"
 SECTION = "console/utils"
 
 LICENSE = "Apache-2.0 & ISC"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=1d8db96e7ee90f3821eb5e7e913a7b2a"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=83a31d934b0cc2ab2d44a329445b4366"
 
 
 SRC_URI = "${CMF_GITHUB_ROOT}/iarmmgrs;${CMF_GITHUB_SRC_URI_SUFFIX}"
@@ -31,8 +31,6 @@ do_install() {
     install -m 0644 ${S}/hal/include/plat_ir.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/hal/include/pwrMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/hal/include/therm_mon.h ${D}${includedir}/rdk/iarmmgrs-hal
-    install -m 0644 ${S}/ir/irMgrInternal.h ${D}${includedir}/rdk/iarmmgrs-hal
-    install -m 0644 ${S}/ir/IrInputRemoteKeyCodes.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/power/pwrlogger.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfrMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfrTypes.h ${D}${includedir}/rdk/iarmmgrs-hal
@@ -40,10 +38,8 @@ do_install() {
     install -m 0644 ${S}/mfr/include/mfr_wifi_types.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfr_wifi_api.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfr_temperature.h ${D}${includedir}/rdk/iarmmgrs-hal
-    install -m 0644 ${S}/ir/include/irMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/sysmgr/include/sysMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
 
-    install -m 0644 ${S}/vrexmgr/include/vrexMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/deviceUpdateMgr/include/deviceUpdateMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfr_temperature.h ${D}${includedir}/rdk/iarmmgrs-hal
     if ${@bb.utils.contains('DISTRO_FEATURES' , 'enable_maintenance_manager', 'true', 'false', d)}; then
