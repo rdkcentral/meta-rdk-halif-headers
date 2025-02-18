@@ -43,7 +43,6 @@ do_install() {
     install -m 0644 ${S}/ir/include/irMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/sysmgr/include/sysMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
 
-    install -m 0644 ${S}/vrexmgr/include/vrexMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/deviceUpdateMgr/include/deviceUpdateMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfr_temperature.h ${D}${includedir}/rdk/iarmmgrs-hal
     if ${@bb.utils.contains('DISTRO_FEATURES' , 'enable_maintenance_manager', 'true', 'false', d)}; then
