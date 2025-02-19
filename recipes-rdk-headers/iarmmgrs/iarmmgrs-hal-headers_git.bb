@@ -8,7 +8,7 @@ SUMMARY = "IARMmgrs HAL definition"
 SECTION = "console/utils"
 
 LICENSE = "Apache-2.0 & ISC"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=1d8db96e7ee90f3821eb5e7e913a7b2a"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=83a31d934b0cc2ab2d44a329445b4366"
 
 
 SRC_URI = "${CMF_GITHUB_ROOT}/iarmmgrs;${CMF_GITHUB_SRC_URI_SUFFIX}"
