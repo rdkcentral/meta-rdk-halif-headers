@@ -1,10 +1,10 @@
 SUMMARY = "Soc-specific implementations for video applications"
-LICENSE = "CLOSED"
+LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
 ALLOW_EMPTY:${PN} = "1"
 
-SRC_URI = "${RDKE_GITHUB_ROOT}/gstreamer-netflix-platform;${RDKE_GITHUB_SRC_URI_SUFFIX}"
+SRC_URI = "${CMF_GITHUB_ROOT}/gstreamer-netflix-platform;${CMF_GITHUB_SRC_URI_SUFFIX}"
 
 S = "${WORKDIR}/git"
 inherit allarch
