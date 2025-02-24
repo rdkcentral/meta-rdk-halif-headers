@@ -1,13 +1,3 @@
-# ============================================================================
-# RDK MANAGEMENT, LLC CONFIDENTIAL AND PROPRIETARY
-# ============================================================================
-# This file (and its contents) are the intellectual property of RDK Management, LLC.
-# It may not be used, copied, distributed or otherwise  disclosed in whole or in
-# part without the express written permission of RDK Management, LLC.
-# ============================================================================
-# Copyright (c) 2016 RDK Management, LLC. All rights reserved.
-# ============================================================================
-
 # Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
 
 # deepSleepMgr.h & plat_power.h are now taken from the rdkcentral git hub
@@ -18,10 +8,10 @@ SUMMARY = "IARMmgrs HAL definition"
 SECTION = "console/utils"
 
 LICENSE = "Apache-2.0 & ISC"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=1d8db96e7ee90f3821eb5e7e913a7b2a"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=83a31d934b0cc2ab2d44a329445b4366"
 
 
-SRC_URI = "${RDKE_GITHUB_ROOT}/iarmmgrs;${RDKE_GITHUB_SRC_URI_SUFFIX}"
+SRC_URI = "${CMF_GITHUB_ROOT}/iarmmgrs;${CMF_GITHUB_SRC_URI_SUFFIX}"
 
 S = "${WORKDIR}/git"
 
@@ -53,7 +43,6 @@ do_install() {
     install -m 0644 ${S}/ir/include/irMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/sysmgr/include/sysMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
 
-    install -m 0644 ${S}/vrexmgr/include/vrexMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/deviceUpdateMgr/include/deviceUpdateMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfr_temperature.h ${D}${includedir}/rdk/iarmmgrs-hal
     if ${@bb.utils.contains('DISTRO_FEATURES' , 'enable_maintenance_manager', 'true', 'false', d)}; then

@@ -1,5 +1,5 @@
 # This inc file contains the versions and SRCREV for individual
-# RDK hal header recipes present in rdk-e/meta-rdk-halif-headers
+# RDK hal header recipes present in rdkcentral/meta-rdk-halif-headers
 
 CMF_GITHUB_ROOT ?= "git://github.com/rdkcentral"
 CMF_GITHUB_PROTOCOL ?= "git"
@@ -21,21 +21,17 @@ PV:pn-power-manager-headers = "1.0.3"
 PR:pn-power-manager-headers = "r0"
 SRCREV:pn-power-manager-headers = "d54d79097cd48e362fd7a8c7bc41ccba7839e718"
 
-PV:pn-devicesettings-hal-headers = "4.1.2"
+PV:pn-devicesettings-hal-headers = "4.1.3"
 PR:pn-devicesettings-hal-headers = "r0"
-SRCREV:pn-devicesettings-hal-headers = "a688e8437bca6e0c80694dfac7487bafbb0314ea"
+SRCREV:pn-devicesettings-hal-headers = "9171bffa979be886e31c2a65c7d886d36a815f18"
 
 PV:pn-tvsettings-hal-headers = "2.1.0"
 PR:pn-tvsettings-hal-headers = "r0"
 SRCREV:pn-tvsettings-hal-headers = "3f5e5744a2850aa4db6887e9f143c3e9ad9155f6"
 
-PV:pn-iarmmgrs-hal-headers = "2.1.5"
+PV:pn-iarmmgrs-hal-headers = "1.0.1"
 PR:pn-iarmmgrs-hal-headers = "r0"
-SRCREV:pn-iarmmgrs-hal-headers = "4894410122b854cb97bd0ebc41cf9f90af333840"
-
-PV:pn-closedcaption-hal-headers = "1.0.0"
-PR:pn-closedcaption-hal-headers = "r0"
-SRCREV:pn-closedcaption-hal-headers = "9f70b3cde96ee504479120cc4192b6da28f7725f"
+SRCREV:pn-iarmmgrs-hal-headers = "adf1e71ca349754e772d352b8afac0a149882ef1"
 
 PV:pn-iarmbus-headers = "1.0.0"
 PR:pn-iarmbus-headers = "r0"
