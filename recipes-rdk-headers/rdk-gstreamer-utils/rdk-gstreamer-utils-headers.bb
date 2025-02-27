@@ -1,6 +1,6 @@
 SUMMARY = "Soc-specific implementations for video applications"
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 
 ALLOW_EMPTY:${PN} = "1"
 
