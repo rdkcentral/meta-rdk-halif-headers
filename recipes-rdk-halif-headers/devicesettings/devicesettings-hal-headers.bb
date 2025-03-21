@@ -6,7 +6,9 @@ SECTION = "console/utils"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
-SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-device_settings;${CMF_GITHUB_SRC_URI_SUFFIX}"
+#SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-device_settings;${CMF_GITHUB_SRC_URI_SUFFIX}"
+SRC_URI = "git://github.com/rdkcentral/rdk-halif-device_settings.git;protocol=git;branch=feature/dsVideoPort_Add_new_AVI_APIs;"
+SRCREV="8edbdf9d2a98d7ec428c662d064602c0255c3efa"
 
 inherit allarch
 
