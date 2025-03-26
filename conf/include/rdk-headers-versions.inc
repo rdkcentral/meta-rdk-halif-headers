@@ -21,7 +21,7 @@ PV:pn-power-manager-headers = "1.0.3"
 PR:pn-power-manager-headers = "r0"
 SRCREV:pn-power-manager-headers = "d54d79097cd48e362fd7a8c7bc41ccba7839e718"
 
-PV:pn-devicesettings-hal-headers = "4.1.2"
+PV:pn-devicesettings-hal-headers = "4.1.3"
 PR:pn-devicesettings-hal-headers = "r0"
 SRCREV:pn-devicesettings-hal-headers = "a688e8437bca6e0c80694dfac7487bafbb0314ea"
 
@@ -29,7 +29,7 @@ PV:pn-tvsettings-hal-headers = "2.1.0"
 PR:pn-tvsettings-hal-headers = "r0"
 SRCREV:pn-tvsettings-hal-headers = "3f5e5744a2850aa4db6887e9f143c3e9ad9155f6"
 
-PV:pn-iarmmgrs-hal-headers = "1.0.1"
+PV:pn-iarmmgrs-hal-headers = "2.1.5"
 PR:pn-iarmmgrs-hal-headers = "r0"
 SRCREV:pn-iarmmgrs-hal-headers = "adf1e71ca349754e772d352b8afac0a149882ef1"
 
@@ -37,6 +37,6 @@ PV:pn-iarmbus-headers = "1.0.1"
 PR:pn-iarmbus-headers = "r0"
 SRCREV:pn-iarmbus-headers = "6ed35ebb886a8ac01812d8bfe5b4c3a89f9ace38"
 
-PV:pn-rdk-gstreamer-utils-headers = "1.0.0"
+PV:pn-rdk-gstreamer-utils-headers = "1.3.0"
 PR:pn-rdk-gstreamer-utils-headers = "r0"
 SRCREV:pn-rdk-gstreamer-utils-headers = "ceb1e846dc1c959dae401db6036bd133fecc9d52"
