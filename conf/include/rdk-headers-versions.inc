@@ -21,9 +21,9 @@ PV:pn-power-manager-headers = "1.0.3"
 PR:pn-power-manager-headers = "r0"
 SRCREV:pn-power-manager-headers = "d54d79097cd48e362fd7a8c7bc41ccba7839e718"
 
-PV:pn-devicesettings-hal-headers = "4.1.2"
+PV:pn-devicesettings-hal-headers = "5.1.0"
 PR:pn-devicesettings-hal-headers = "r0"
-SRCREV:pn-devicesettings-hal-headers = "a688e8437bca6e0c80694dfac7487bafbb0314ea"
+SRCREV:pn-devicesettings-hal-headers = "9d2303c5e986e586905f2e6026d27ebdee5fead9"
 
 PV:pn-tvsettings-hal-headers = "2.1.0"
 PR:pn-tvsettings-hal-headers = "r0"
