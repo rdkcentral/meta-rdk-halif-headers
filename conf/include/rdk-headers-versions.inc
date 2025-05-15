@@ -21,17 +21,17 @@ PV:pn-power-manager-headers = "1.0.3"
 PR:pn-power-manager-headers = "r0"
 SRCREV:pn-power-manager-headers = "d54d79097cd48e362fd7a8c7bc41ccba7839e718"
 
-PV:pn-devicesettings-hal-headers = "5.1.0"
+PV:pn-devicesettings-hal-headers = "4.1.2"
 PR:pn-devicesettings-hal-headers = "r0"
-SRCREV:pn-devicesettings-hal-headers = "9d2303c5e986e586905f2e6026d27ebdee5fead9"
+SRCREV:pn-devicesettings-hal-headers = "a688e8437bca6e0c80694dfac7487bafbb0314ea"
 
-PV:pn-tvsettings-hal-headers = "2.2.0"
+PV:pn-tvsettings-hal-headers = "2.2.7"
 PR:pn-tvsettings-hal-headers = "r0"
-SRCREV:pn-tvsettings-hal-headers ="20378fd9a044dc0ebd63a8257ab63f4a643fa05e"
+SRCREV:pn-tvsettings-hal-headers ="b8619ddd5e63f815daef8bd33e8cc29a84d7b3bf"
 
-PV:pn-iarmmgrs-hal-headers = "1.0.12"
+PV:pn-iarmmgrs-hal-headers = "1.0.1"
 PR:pn-iarmmgrs-hal-headers = "r0"
-SRCREV:pn-iarmmgrs-hal-headers = "2ec0b6f6caa662f86963e58c417e8e54e221c99b"
+SRCREV:pn-iarmmgrs-hal-headers = "adf1e71ca349754e772d352b8afac0a149882ef1"
 
 PV:pn-iarmbus-headers = "1.0.1"
 PR:pn-iarmbus-headers = "r0"
