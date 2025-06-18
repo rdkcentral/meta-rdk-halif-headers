@@ -39,4 +39,4 @@ SRCREV:pn-iarmbus-headers = "6ed35ebb886a8ac01812d8bfe5b4c3a89f9ace38"
 
 PV:pn-rdk-gstreamer-utils-headers = "2.0.0"
 PR:pn-rdk-gstreamer-utils-headers = "r0"
-SRCREV:pn-rdk-gstreamer-utils-headers = "f11b7e042516b4860d9be74a137e8ec50998ea94"
+SRCREV:pn-rdk-gstreamer-utils-headers = "4993887d416fa10530fe9dc8a56730e99ed89083"
