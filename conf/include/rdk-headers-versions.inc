@@ -37,6 +37,6 @@ PV:pn-iarmbus-headers = "1.0.1"
 PR:pn-iarmbus-headers = "r0"
 SRCREV:pn-iarmbus-headers = "6ed35ebb886a8ac01812d8bfe5b4c3a89f9ace38"
 
-PV:pn-rdk-gstreamer-utils-headers = "2.0.0"
+PV:pn-rdk-gstreamer-utils-headers = "2.0.1"
 PR:pn-rdk-gstreamer-utils-headers = "r0"
-SRCREV:pn-rdk-gstreamer-utils-headers = "433b8d6b24cf7e2bf9c99c84ab1c16468f88cffc"
+SRCREV:pn-rdk-gstreamer-utils-headers = "9b3c2833cda4e2c3865a75932c2510613037fe61"
