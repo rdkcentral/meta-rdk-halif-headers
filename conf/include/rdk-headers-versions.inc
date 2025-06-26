@@ -37,7 +37,7 @@ PV:pn-iarmbus-headers = "1.0.1"
 PR:pn-iarmbus-headers = "r0"
 SRCREV:pn-iarmbus-headers = "6ed35ebb886a8ac01812d8bfe5b4c3a89f9ace38"
 
-PV:pn-ctrlm-hal-headers = "1.0.1"
+PV:pn-ctrlm-hal-headers = "1.1.0"
 PR:pn-ctrlm-hal-headers = "r0"
 SRCREV:pn-ctrlm-hal-headers = "99d9e3bda6e59542970eadcdcaaa825d6d5875e8"
 
