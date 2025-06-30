@@ -1,6 +1,6 @@
 # Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
 
-SUMMARY = "This recipe provides RDK Control Manager HAL Interface headers"
+SUMMARY = "This recipe provides RDK Control Manager IR Database Plugin interface headers"
 SECTION = "console/utils"
 
 LICENSE = "Apache-2.0"
@@ -8,7 +8,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 
 inherit allarch
 
-SRC_URI = "${CMF_GITHUB_ROOT}/control;${CMF_GITHUB_SRC_URI_SUFFIX};name=ctrlm-hal-headers"
+SRC_URI = "${CMF_GITHUB_ROOT}/control;${CMF_GITHUB_SRC_URI_SUFFIX};name=ctrlm-irdb-headers"
 
 S = "${WORKDIR}/git"
 
