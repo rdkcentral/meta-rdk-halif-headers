@@ -40,3 +40,7 @@ SRCREV:pn-iarmbus-headers = "6ed35ebb886a8ac01812d8bfe5b4c3a89f9ace38"
 PV:pn-rdk-gstreamer-utils-headers = "2.0.1"
 PR:pn-rdk-gstreamer-utils-headers = "r0"
 SRCREV:pn-rdk-gstreamer-utils-headers = "9b3c2833cda4e2c3865a75932c2510613037fe61"
+
+PV:pn-xr-voice-sdk-xlog-headers = "1.0.5"
+PR:pn-xr-voice-sdk-xlog-headers = "r0"
+SRCREV:pn-xr-voice-sdk-xlog-headers = "b628e1ac2b8b149e87de650ca87d6b78969521c4"
