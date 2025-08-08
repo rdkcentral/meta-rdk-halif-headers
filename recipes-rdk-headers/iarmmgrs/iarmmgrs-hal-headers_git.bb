@@ -28,9 +28,6 @@ RDEPENDS:${PN}-dev = ""
 do_install() {
     install -d ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/hal/include/comcastIrKeyCodes.h ${D}${includedir}/rdk/iarmmgrs-hal
-    install -m 0644 ${S}/hal/include/pwrMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
-    install -m 0644 ${S}/hal/include/therm_mon.h ${D}${includedir}/rdk/iarmmgrs-hal
-    install -m 0644 ${S}/power/pwrlogger.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfrMgr.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/include/mfrTypes.h ${D}${includedir}/rdk/iarmmgrs-hal
     install -m 0644 ${S}/mfr/common/include/mfrApi.h ${D}${includedir}/rdk/iarmmgrs-hal
