@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 
 ALLOW_EMPTY:${PN} = "1"
 
-SRC_URI = "git://github.com/rdkcentral/middleware-player-interface.git;protocol=https;branch=feature/RDKEMW-6676"
+SRC_URI = "${CMF_GITHUB_ROOT}/middleware-player-interface.git;${CMF_GITHUB_SRC_URI_SUFFIX}"
 SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
