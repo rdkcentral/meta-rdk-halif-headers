@@ -29,9 +29,9 @@ PV:pn-tvsettings-hal-headers = "2.3.0"
 PR:pn-tvsettings-hal-headers = "r0"
 SRCREV:pn-tvsettings-hal-headers ="2973d3127307c3c829346897795af488a48ce31b"
 
-PV:pn-iarmmgrs-hal-headers = "1.0.12"
+PV:pn-iarmmgrs-hal-headers = "1.1.0"
 PR:pn-iarmmgrs-hal-headers = "r0"
-SRCREV:pn-iarmmgrs-hal-headers = "2ec0b6f6caa662f86963e58c417e8e54e221c99b"
+SRCREV:pn-iarmmgrs-hal-headers = "f03e69447a6a68905700af07b03ee1f5c0bbd3f2"
 
 PV:pn-iarmbus-headers = "1.0.1"
 PR:pn-iarmbus-headers = "r0"
@@ -41,9 +41,9 @@ PV:pn-ctrlm-hal-headers = "1.1.0"
 PR:pn-ctrlm-hal-headers = "r0"
 SRCREV:pn-ctrlm-hal-headers = "99d9e3bda6e59542970eadcdcaaa825d6d5875e8"
 
-PV:pn-rdk-gstreamer-utils-headers = "2.0.1"
+PV:pn-rdk-gstreamer-utils-headers = "2.0.2"
 PR:pn-rdk-gstreamer-utils-headers = "r0"
-SRCREV:pn-rdk-gstreamer-utils-headers = "9b3c2833cda4e2c3865a75932c2510613037fe61"
+SRCREV:pn-rdk-gstreamer-utils-headers = "73ebcc4ba5ff0a350e8500760d7836fad32e3736"
 
 PV:pn-ctrlm-irdb-headers = "1.1.0"
 PR:pn-ctrlm-irdb-headers = "r0"
