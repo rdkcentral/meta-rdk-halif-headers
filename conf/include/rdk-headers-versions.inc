@@ -25,9 +25,9 @@ PV:pn-devicesettings-hal-headers = "6.0.0"
 PR:pn-devicesettings-hal-headers = "r0"
 SRCREV:pn-devicesettings-hal-headers = "237ad06c635e489b8d85a6b34f3982223dab468b"
 
-PV:pn-tvsettings-hal-headers = "2.3.0"
+PV:pn-tvsettings-hal-headers = "2.7.7"
 PR:pn-tvsettings-hal-headers = "r0"
-SRCREV:pn-tvsettings-hal-headers ="ebf2ff1f31dbf200ef2839212e6d94bc08b5cc19"
+SRCREV:pn-tvsettings-hal-headers ="2f7501157c2ca03f57f823f3b2d995d52e727e08"
 
 PV:pn-iarmmgrs-hal-headers = "1.1.0"
 PR:pn-iarmmgrs-hal-headers = "r0"
