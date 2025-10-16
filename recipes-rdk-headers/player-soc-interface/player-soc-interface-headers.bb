@@ -4,9 +4,8 @@ LICENSE = "CLOSED"
 
 ALLOW_EMPTY:${PN} = "1"
 
-SRCREV = "063d0690231ac9a5b84916498cec9be9eca80f80"
-
 SRC_URI = "git://github.com/rdkcentral/middleware-player-interface.git;protocol=https;rev=${SRCREV}"
+SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
 inherit allarch
