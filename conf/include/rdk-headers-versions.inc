@@ -47,4 +47,4 @@ SRCREV:pn-rdk-gstreamer-utils-headers = "73ebcc4ba5ff0a350e8500760d7836fad32e373
 
 PV:pn-ctrlm-irdb-headers = "1.1.0"
 PR:pn-ctrlm-irdb-headers = "r0"
-SRCREV:pn-ctrlm-irdb-headers = "99d9e3bda6e59542970eadcdcaaa825d6d5875e8"
+SRCREV:pn-ctrlm-irdb-headers = "276997ac52c21e87b4a40c8735e0f365c3f2e02b"
