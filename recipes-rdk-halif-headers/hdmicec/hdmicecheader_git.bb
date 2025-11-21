@@ -22,3 +22,6 @@ do_install() {
         install -d ${D}${includedir}/ccec/drivers
         install -m 0644 ${S}/include/*.h ${D}${includedir}/ccec/drivers
 }
+
+SRCREV = "5201b2f759b4ca8fd2a6f5db838d528f6477db0c"
+
