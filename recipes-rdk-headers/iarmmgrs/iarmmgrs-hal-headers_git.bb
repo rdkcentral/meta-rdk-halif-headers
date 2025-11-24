@@ -42,4 +42,4 @@ do_install() {
         install -m 0644 ${S}/maintenance/include/maintenanceMGR.h ${D}${includedir}/rdk/iarmmgrs-hal
     fi
 }
-
+SRCREV = "b8208e7feb22da102adb4b5b91227b8c9d0f200d"
