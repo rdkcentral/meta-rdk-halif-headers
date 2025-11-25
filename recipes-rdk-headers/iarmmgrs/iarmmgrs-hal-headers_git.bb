@@ -43,3 +43,5 @@ do_install() {
     fi
 }
 
+
+SRCREV = "b8208e7feb22da102adb4b5b91227b8c9d0f200d"
