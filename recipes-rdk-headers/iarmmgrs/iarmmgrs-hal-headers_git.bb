@@ -12,6 +12,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=83a31d934b0cc2ab2d44a329445b4366"
 
 
 SRC_URI = "${CMF_GITHUB_ROOT}/iarmmgrs;${CMF_GITHUB_SRC_URI_SUFFIX}"
+SRCREV:pn-iarmmgrs-hal-headers = "${SRCREV:pn-iarmmgrs}"
 
 S = "${WORKDIR}/git"
 
