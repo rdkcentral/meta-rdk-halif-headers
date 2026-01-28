@@ -1,6 +1,6 @@
 # Version and SRCREV for this component is handled in conf/include/rdk-headers-versions.inc
 
-SUMMARY = "This recipe provides xr-voice-sdk interface headers"
+SUMMARY = "This recipe provides xr-voice-sdk FFV interface headers"
 SECTION = "console/utils"
 
 LICENSE = "Apache-2.0"
@@ -8,7 +8,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
 inherit allarch
 
-SRC_URI = "${CMF_GITHUB_ROOT}/xr-voice-sdk;${CMF_GITHUB_SRC_URI_SUFFIX};name=xr-voice-sdk-headers"
+SRC_URI = "${CMF_GITHUB_ROOT}/xr-voice-sdk;${CMF_GITHUB_SRC_URI_SUFFIX};name=xr-voice-sdk-ffv-headers"
 
 S = "${WORKDIR}/git"
 

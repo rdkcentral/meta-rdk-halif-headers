@@ -49,7 +49,7 @@ PV:pn-ctrlm-irdb-headers = "1.1.0"
 PR:pn-ctrlm-irdb-headers = "r0"
 SRCREV:pn-ctrlm-irdb-headers = "99d9e3bda6e59542970eadcdcaaa825d6d5875e8"
 
-PV:pn-xr-voice-sdk-headers = "1.0.9"
-PR:pn-xr-voice-sdk-headers = "r0"
-SRCREV:pn-xr-voice-sdk-headers = "143bf22b2f5dc3046d7c0d60916294fb216f100c"
+PV:pn-xr-voice-sdk-ffv-headers = "1.0.9"
+PR:pn-xr-voice-sdk-ffv-headers = "r0"
+SRCREV:pn-xr-voice-sdk-ffv-headers = "c514ed32351fe1327b7e46f460f200686c1f6f2f"
 
