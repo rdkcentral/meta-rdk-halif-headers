@@ -18,18 +18,18 @@ do_compile[noexec] = "1"
 
 do_install() {
    install -d ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio.h          ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_hal.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_eos.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_dga.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_kwd.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_sdf.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_ovc.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_ppr.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_common.h   ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_platform.h ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/src/xr-audio/xraudio_version.h  ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/scripts/vsdk_json_combine.py    ${D}${includedir}/rdk/halif/ctrlm/vsdk
-   install -m 644 ${S}/scripts/vsdk_json_to_header.py  ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio.h          ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_hal.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_eos.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_dga.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_kwd.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_sdf.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_ovc.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_ppr.h      ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_common.h   ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_platform.h ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/src/xr-audio/xraudio_version.h  ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/scripts/vsdk_json_combine.py    ${D}${includedir}/rdk/halif/ctrlm/vsdk
+   install -m 0644 ${S}/scripts/vsdk_json_to_header.py  ${D}${includedir}/rdk/halif/ctrlm/vsdk
 }
 

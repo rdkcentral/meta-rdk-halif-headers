@@ -52,4 +52,3 @@ SRCREV:pn-ctrlm-irdb-headers = "99d9e3bda6e59542970eadcdcaaa825d6d5875e8"
 PV:pn-xr-voice-sdk-ffv-headers = "1.0.9"
 PR:pn-xr-voice-sdk-ffv-headers = "r0"
 SRCREV:pn-xr-voice-sdk-ffv-headers = "c514ed32351fe1327b7e46f460f200686c1f6f2f"
-
