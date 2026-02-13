@@ -9,9 +9,9 @@ PV:pn-media-utils-headers = "1.0.5"
 PR:pn-media-utils-headers = "r0"
 SRCREV:pn-media-utils-headers = "ba963275db7111b78172480fb5142bd04a544026"
 
-PV:pn-hdmicecheader = "1.3.10"
+PV:pn-hdmicecheader = "1.4.0"
 PR:pn-hdmicecheader = "r0"
-SRCREV:pn-hdmicecheader = "add261d1f77ffb50d38fb7e100450aabcfbd73e7"
+SRCREV:pn-hdmicecheader = "f05a341fe525fa345decc16996ad30234b645ece"
 
 PV:pn-deepsleep-manager-headers = "1.0.4"
 PR:pn-deepsleep-manager-headers = "r0"
@@ -29,9 +29,9 @@ PV:pn-tvsettings-hal-headers = "3.1.0"
 PR:pn-tvsettings-hal-headers = "r0"
 SRCREV:pn-tvsettings-hal-headers ="3.1.0"
 
-PV:pn-iarmmgrs-hal-headers = "1.1.0"
+PV:pn-iarmmgrs-hal-headers = "1.1.10"
 PR:pn-iarmmgrs-hal-headers = "r0"
-SRCREV:pn-iarmmgrs-hal-headers = "f03e69447a6a68905700af07b03ee1f5c0bbd3f2"
+SRCREV:pn-iarmmgrs-hal-headers = "c643c2c715daea0796f4f1b250a85f4326a6fc2e"
 
 PV:pn-iarmbus-headers = "1.0.1"
 PR:pn-iarmbus-headers = "r0"
