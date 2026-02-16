@@ -5,25 +5,25 @@ CMF_GITHUB_ROOT ?= "git://github.com/rdkcentral"
 CMF_GITHUB_PROTOCOL ?= "git"
 CMF_GITHUB_SRC_URI_SUFFIX ?= "protocol=${CMF_GITHUB_PROTOCOL};nobranch=1"
 
-PV:pn-media-utils-headers = "1.0.5"
+PV:pn-media-utils-headers = "1.0.6"
 PR:pn-media-utils-headers = "r0"
-SRCREV:pn-media-utils-headers = "ba963275db7111b78172480fb5142bd04a544026"
+SRCREV:pn-media-utils-headers = "c3d918ca6b637f00adf096bb02afb95c1c100ab4"
 
 PV:pn-hdmicecheader = "1.4.0"
 PR:pn-hdmicecheader = "r0"
 SRCREV:pn-hdmicecheader = "f05a341fe525fa345decc16996ad30234b645ece"
 
-PV:pn-deepsleep-manager-headers = "1.0.4"
+PV:pn-deepsleep-manager-headers = "1.0.5"
 PR:pn-deepsleep-manager-headers = "r0"
-SRCREV:pn-deepsleep-manager-headers = "cb361e50aedbbce1d5da2dbb86e698c95a2d5648"
+SRCREV:pn-deepsleep-manager-headers = "c14f0d5cd5381327a1df921e056adbb7eaf4ed8c"
 
-PV:pn-power-manager-headers = "1.0.3"
+PV:pn-power-manager-headers = "1.0.4"
 PR:pn-power-manager-headers = "r0"
-SRCREV:pn-power-manager-headers = "d54d79097cd48e362fd7a8c7bc41ccba7839e718"
+SRCREV:pn-power-manager-headers = "dfdb28730ca05b711fb7b6484eadfedf834a4970"
 
-PV:pn-devicesettings-hal-headers = "6.0.0"
+PV:pn-devicesettings-hal-headers = "6.0.1"
 PR:pn-devicesettings-hal-headers = "r0"
-SRCREV:pn-devicesettings-hal-headers = "237ad06c635e489b8d85a6b34f3982223dab468b"
+SRCREV:pn-devicesettings-hal-headers = "af2fbac2390530012e298a3f7c135ef30ae0e091"
 
 PV:pn-tvsettings-hal-headers = "3.1.0"
 PR:pn-tvsettings-hal-headers = "r0"
