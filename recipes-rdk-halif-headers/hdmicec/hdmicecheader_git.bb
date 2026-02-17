@@ -8,7 +8,6 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
 inherit allarch
 
-SRCREV = "5201b2f759b4ca8fd2a6f5db838d528f6477db0c"
 SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-hdmi_cec;${CMF_GITHUB_SRC_URI_SUFFIX}"
 
 S = "${WORKDIR}/git"
