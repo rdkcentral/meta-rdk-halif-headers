@@ -31,6 +31,6 @@ do_install() {
    install -m 0644 ${S}/src/xr-audio/xraudio_version.h      ${D}${includedir}/rdk/halif/vsdk/ffv
    install -m 0755 ${S}/scripts/vsdk_json_combine.py        ${D}${includedir}/rdk/halif/vsdk/ffv
    install -m 0755 ${S}/scripts/vsdk_json_to_header.py      ${D}${includedir}/rdk/halif/vsdk/ffv
-   install -m 0644 ${S}/src/xr-ffv-hal/xr_ffv_hal_plugin.h  ${D}${includedir}/rdk/halif/vsdk/ffv 
+   install -m 0644 ${S}/src/xr-ffv-hal/xr_ffv_hal_plugin.h  ${D}${includedir}/rdk/halif/vsdk/ffv
 }
 
