@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=97dd37dbf35103376811825b038fc32b"
 
 ALLOW_EMPTY:${PN} = "1"
 
-SRCREV = "269f2b1a38492c26f2f7cfb41d194029a8ea88d2"
+SRCREV = "6d98ec11baa5c3972f21c3de863a6177aed903c7"
 
 SRC_URI = "${CMF_GITHUB_ROOT}/middleware-player-interface;${CMF_GITHUB_SRC_URI_SUFFIX};name=player-interface;branch=develop"
 
