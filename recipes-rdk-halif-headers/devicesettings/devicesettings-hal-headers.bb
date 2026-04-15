@@ -6,7 +6,11 @@ SECTION = "console/utils"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
+PV = "6.0.1"
+PR = "r0"
+SRCREV = "282bd174c3a2616de64eac670401952a27a4f613"
 SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-device_settings;${CMF_GITHUB_SRC_URI_SUFFIX}"
+PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 inherit allarch
 
@@ -28,4 +32,3 @@ do_install() {
 }
 
 do_install[vardepsexclude] += "S"
-
