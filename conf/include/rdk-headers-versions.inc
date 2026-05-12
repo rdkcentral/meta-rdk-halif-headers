@@ -29,7 +29,7 @@ PV:pn-tvsettings-hal-headers = "3.1.0"
 PR:pn-tvsettings-hal-headers = "r0"
 SRCREV:pn-tvsettings-hal-headers ="3.1.0"
 
-PV:pn-iarmmgrs-hal-headers = "1.1.10"
+PV:pn-iarmmgrs-hal-headers = "1.0.12"
 PR:pn-iarmmgrs-hal-headers = "r0"
 SRCREV:pn-iarmmgrs-hal-headers = "422bc8cd41d6ac3c49a7b828159cf09874b467e5"
 
