@@ -5,6 +5,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 ALLOW_EMPTY:${PN} = "1"
 
 SRC_URI = "${CMF_GITHUB_ROOT}/gstreamer-netflix-platform;${CMF_GITHUB_SRC_URI_SUFFIX}"
+SRC_URI += "file://0001-Test-RDKEVD-5399-Added-dubug-logs.patch"
 
 S = "${WORKDIR}/git"
 inherit allarch
