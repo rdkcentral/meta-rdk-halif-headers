@@ -13,9 +13,9 @@ PV:pn-hdmicecheader = "1.3.10"
 PR:pn-hdmicecheader = "r0"
 SRCREV:pn-hdmicecheader = "add261d1f77ffb50d38fb7e100450aabcfbd73e7"
 
-PV:pn-deepsleep-manager-headers = "1.0.4"
+PV:pn-deepsleep-manager-headers = "1.0.6"
 PR:pn-deepsleep-manager-headers = "r0"
-SRCREV:pn-deepsleep-manager-headers = "cb361e50aedbbce1d5da2dbb86e698c95a2d5648"
+SRCREV:pn-deepsleep-manager-headers = "a80e971ce4b6ae39a4e274098bdbda6d6a844e43"
 
 PV:pn-power-manager-headers = "1.0.3"
 PR:pn-power-manager-headers = "r0"
