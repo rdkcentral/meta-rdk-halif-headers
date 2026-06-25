@@ -52,3 +52,7 @@ SRCREV:pn-ctrlm-irdb-headers = "7706a0cfc7af9823854d5f6865bb5548a0543494"
 PV:pn-xr-voice-sdk-ffv-headers = "1.0.11"
 PR:pn-xr-voice-sdk-ffv-headers = "r0"
 SRCREV:pn-xr-voice-sdk-ffv-headers = "c047a8aae52f4fc0c88a22b20c8d49da5d856066"
+
+PV:pn-reboot-manager-headers = "1.0.0"
+PR:pn-reboot-manager-headers = "r0"
+SRCREV:pn-reboot-manager-headers = "5159f7b5e18908647604e2a50fb1698d567949a5"
