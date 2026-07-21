@@ -23,7 +23,7 @@ SRCREV:pn-power-manager-headers = "dfdb28730ca05b711fb7b6484eadfedf834a4970"
 
 PV:pn-devicesettings-hal-headers = "7.0.0"
 PR:pn-devicesettings-hal-headers = "r0"
-SRCREV:pn-devicesettings-hal-headers = "4d422e891a794695bab1675d3fa4040348d43f80"
+SRCREV:pn-devicesettings-hal-headers = "7.0.0"
 
 PV:pn-tvsettings-hal-headers = "3.3.0"
 PR:pn-tvsettings-hal-headers = "r0"
