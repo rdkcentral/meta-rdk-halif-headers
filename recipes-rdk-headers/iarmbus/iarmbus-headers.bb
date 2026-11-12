@@ -14,7 +14,7 @@ ALLOW_EMPTY:${PN} = "1"
 
 SRC_URI = "${CMF_GITHUB_ROOT}/iarmbus;${CMF_GITHUB_SRC_URI_SUFFIX};name=iarmbus"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 inherit allarch
 

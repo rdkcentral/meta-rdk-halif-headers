@@ -12,7 +12,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=83a31d934b0cc2ab2d44a329445b4366"
 
 SRC_URI = "${CMF_GITHUB_ROOT}/iarmmgrs;${CMF_GITHUB_SRC_URI_SUFFIX}"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 inherit allarch
 
@@ -41,4 +41,3 @@ do_install() {
         install -m 0644 ${S}/maintenance/include/maintenanceMGR.h ${D}${includedir}/rdk/iarmmgrs-hal
     fi
 }
-

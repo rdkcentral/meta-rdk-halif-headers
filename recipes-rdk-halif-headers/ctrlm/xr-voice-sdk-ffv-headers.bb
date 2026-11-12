@@ -10,7 +10,7 @@ inherit allarch
 
 SRC_URI = "${CMF_GITHUB_ROOT}/xr-voice-sdk;${CMF_GITHUB_SRC_URI_SUFFIX};name=xr-voice-sdk-ffv-headers"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 # this is a Header package only, nothing to build
 do_configure[noexec] = "1"
@@ -32,4 +32,3 @@ do_install() {
    install -m 0755 ${S}/scripts/vsdk_json_combine.py    ${D}${includedir}/rdk/halif/vsdk/ffv
    install -m 0755 ${S}/scripts/vsdk_json_to_header.py  ${D}${includedir}/rdk/halif/vsdk/ffv
 }
-

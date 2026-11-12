@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 inherit allarch
 SRC_URI = "${CMF_GITHUB_ROOT}/rdkv-halif-tvsettings;${CMF_GITHUB_SRC_URI_SUFFIX}"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 # this is a HAL package only, nothing to build
 do_compile[noexec] = "1"
@@ -25,4 +25,3 @@ do_install() {
     install -d ${D}${includedir}/rdk/tv-hal
     install -m 0644 ${S}/include/*.h ${D}${includedir}/rdk/tv-hal
 }
-

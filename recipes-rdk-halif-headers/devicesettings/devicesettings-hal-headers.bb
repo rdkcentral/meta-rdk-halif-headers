@@ -10,7 +10,7 @@ SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-device_settings;${CMF_GITHUB_SRC_URI_SUF
 
 inherit allarch
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 # this is a HAL package only, nothing to build
 do_compile[noexec] = "1"
@@ -28,4 +28,3 @@ do_install() {
 }
 
 do_install[vardepsexclude] += "S"
-

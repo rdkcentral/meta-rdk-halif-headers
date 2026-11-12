@@ -11,7 +11,7 @@ PN = "media-utils-headers"
 inherit allarch
 SRC_URI = "${CMF_GITHUB_ROOT}/rdk-halif-rmf_audio_capture;${CMF_GITHUB_SRC_URI_SUFFIX}"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 # this is a Header package only, nothing to build
 do_compile[noexec] = "1"

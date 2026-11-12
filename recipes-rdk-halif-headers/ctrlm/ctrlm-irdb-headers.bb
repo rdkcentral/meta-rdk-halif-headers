@@ -10,7 +10,7 @@ inherit allarch
 
 SRC_URI = "${CMF_GITHUB_ROOT}/control;${CMF_GITHUB_SRC_URI_SUFFIX};name=ctrlm-irdb-headers"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 # this is a Header package only, nothing to build
 do_configure[noexec] = "1"

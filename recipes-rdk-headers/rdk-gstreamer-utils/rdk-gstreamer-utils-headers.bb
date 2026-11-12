@@ -6,7 +6,7 @@ ALLOW_EMPTY:${PN} = "1"
 
 SRC_URI = "${CMF_GITHUB_ROOT}/gstreamer-netflix-platform;${CMF_GITHUB_SRC_URI_SUFFIX}"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 inherit allarch
 
 # this is a HAL package only, nothing to build
